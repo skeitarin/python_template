@@ -4,7 +4,7 @@
 
 ```sh
 ./python_template
-├── app.py                  - Flaskによるサーバー起動
+├── app.py                  - Flaskによるサーバー起動
 ├── requirements.txt        - 依存関係モジュールの定義
 ├── modules                 - pythonファイル
 │   ├── domain              - 業務ロジック
