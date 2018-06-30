@@ -1,6 +1,5 @@
 
 ## フォルダ構成
----
 
 ```sh
 ./python_template
@@ -20,7 +19,6 @@
 ```
 
 ## リファレンス
----
 
 [参考サイト1](https://www.yoheim.net/blog.php?q=20160505)
 
