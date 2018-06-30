@@ -3,18 +3,20 @@
 
 ```sh
 ./python_template
-├── app.py                  - Flaskによるサーバー起動
-├── requirements.txt        - 依存関係モジュールの定義
-├── modules                 - pythonファイル
-│   ├── domain              - 業務ロジック
-│   ├── models              - DB関係
-│   ├── tests               - テスト用ファイル
-│   └── utils               - ユーティリティファイル
-├── static                  - css,jsなどの静的ファイル
-│   ├── assets              - 画像ファイルなど
-│   ├── css                 - CSSファイル
-│   └── js                  - JSファイル
-└── templetes               - htmlファイル
+├── app.py                    - Flaskによるサーバー起動
+├── ptvs_virtualenv_proxy.py  - Azure(App Service)で稼働させるのに必要
+├── requirements.txt          - 依存関係モジュールの定義
+├── web.3.4.config            - Azure(App Service)で稼働させるのに必要
+├── modules                   - pythonファイル
+│   ├── domain                - 業務ロジック
+│   ├── models                - DB関係
+│   ├── tests                 - テスト用ファイル
+│   └── utils                 - ユーティリティファイル
+├── static                    - css,jsなどの静的ファイル
+│   ├── assets                - 画像ファイルなど
+│   ├── css                   - CSSファイル
+│   └── js                    - JSファイル
+└── templetes                 - htmlファイル
 
 ```
 
