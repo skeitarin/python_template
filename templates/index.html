@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- CSSファイルを追加 -->
+    <link rel="stylesheet" href="/static/css/app.css">
+    <!-- JSファイルを追加 -->
+    <script type="text/javascript" src="/static/js/app.js"></script>
+</head>
+<body>
+    <!-- 画像読み込みを追加 -->
+    <h1><img src="/static/asset/flask.png"></h1>
+    <div class="test">{{ message }}</div>
+   
+    <hr>
+    <ul>
+    {% for x in list %}
+      <li>{{ x }}</li>
+    {% endfor %}
+    </ul>
+
+    <hr>
+    <p>{{ "name: {name} age: {age}".format(name=dict["name"], age=dict["age"]) }}</p>
+    
+    <hr>
+    {% if bl %}
+      <p>True</p>
+    {% else %}
+      <p>False</p>
+    {% endif %}
+
+    <hr>
+    <form action="/post" method="POST">
+        <input type="text" name="msg" value="post arg!!">
+        <input type="submit" value="post">
+    </form>
+</body>
+</html>
