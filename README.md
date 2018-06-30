@@ -1,3 +1,27 @@
+
+## フォルダ構成
+---
+
+```sh
+./python_template
+├── app.py                  - Flaskによるサーバー起動
+├── requirements.txt        - 依存関係モジュールの定義
+├── modules                 - pythonファイル
+│   ├── domain              - 業務ロジック
+│   ├── models              - DB関係
+│   ├── tests               - テスト用ファイル
+│   └── utils               - ユーティリティファイル
+├── static                  - css,jsなどの静的ファイル
+│   ├── assets              - 画像ファイルなど
+│   ├── css                 - CSSファイル
+│   └──  js                 - JSファイル
+└── templetes               - htmlファイル
+
+```
+
+## リファレンス
+---
+
 [参考サイト1](https://www.yoheim.net/blog.php?q=20160505)
 
 [参考サイト2](http://python.zombie-hunting-club.com/entry/2017/11/03/223503)
