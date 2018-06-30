@@ -13,7 +13,7 @@
 ├── static                  - css,jsなどの静的ファイル
 │   ├── assets              - 画像ファイルなど
 │   ├── css                 - CSSファイル
-│   └── js                 - JSファイル
+│   └── js                  - JSファイル
 └── templetes               - htmlファイル
 
 ```
